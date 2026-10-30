@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "unpunchabletree",
+	"version": "${version}",
+	"name": "Unpunchable Tree",
+	"description": "No more punching trees: logs need an axe to drop and are as slow as stone to mine by hand. Adds a throwable Flint Hatchet, craftable in the inventory, to get started. Can also make dirt, sand, gravel and other shovel blocks need a shovel (off by default).",
+	"authors": [
+		"Grotacam"
+	],
+	"license": "MIT",
+	"icon": "assets/unpunchabletree/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.grotacam.unpunchabletree.UnpunchableTree"
+		],
+		"client": [
+			"net.grotacam.unpunchabletree.client.UnpunchableTreeClient"
+		],
+		"modmenu": [
+			"net.grotacam.unpunchabletree.client.config.ModMenuIntegration"
+		],
+		"jade": [
+			"net.grotacam.unpunchabletree.client.compat.JadeCompat"
+		]
+	},
+	"mixins": [
+		"unpunchabletree.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": ">=1.21.9 <=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*",
+		"jade": "*"
+	}
+}

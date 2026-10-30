@@ -1,0 +1,20 @@
+{
+  "item.unpunchabletree.flint_hatchet": "Flint Hatchet",
+  "entity.unpunchabletree.thrown_hatchet": "Thrown Flint Hatchet",
+  "death.attack.unpunchabletree.thrown_hatchet": "%1$s was struck by a hatchet thrown by %2$s",
+  "death.attack.unpunchabletree.thrown_hatchet.item": "%1$s was struck by a hatchet thrown by %2$s using %3$s",
+  "config.unpunchabletree.title": "Unpunchable Tree",
+  "config.unpunchabletree.category.general": "General",
+  "config.unpunchabletree.server_note": "These settings apply to your singleplayer worlds and to LAN worlds you host. On a dedicated server, edit config/unpunchabletree.json on the server instead.",
+  "config.unpunchabletree.punchable_trees": "Punchable Trees",
+  "config.unpunchabletree.punchable_trees.tooltip": "Logs and wood can be harvested by hand.\nWhen disabled, they only drop when mined with an axe, and are as slow as stone to mine without one.",
+  "config.unpunchabletree.punchable_ground": "Punchable Ground",
+  "config.unpunchabletree.punchable_ground.tooltip": "Dirt, sand, gravel and other shovel blocks can be harvested by hand.\nWhen disabled, they only drop when mined with a shovel, and are as slow as stone to mine without one.",
+  "config.unpunchabletree.category.hatchet": "Flint Hatchet",
+  "config.unpunchabletree.hatchet_throwing": "Hatchet Throwing",
+  "config.unpunchabletree.hatchet_throwing.tooltip": "The Flint Hatchet can be thrown like a trident: hold right click, then release.\nThe other options of this tab only apply when this is enabled.",
+  "config.unpunchabletree.shield_over_throwing": "Shield Over Throwing",
+  "config.unpunchabletree.shield_over_throwing.tooltip": "With a shield in the off hand, right click raises the shield instead of throwing the hatchet.",
+  "config.unpunchabletree.thrown_hatchet_durability_cost": "Thrown Hatchet Durability Cost",
+  "config.unpunchabletree.thrown_hatchet_durability_cost.tooltip": "Durability a thrown hatchet loses when it hits an entity (a melee hit costs 2).\nUnbreaking reduces it. Set it to 30 (the hatchet's durability) or more to make an unenchanted hatchet break on every hit."
+}
